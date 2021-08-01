@@ -3,6 +3,7 @@
 		<image class="logo" src="/static/logo.png"></image>
 		<view class="text-area" @click="onClick">
 			<text class="title">{{title}}</text>
+			<text>测试提交用</text>
 		</view>
 	</view>
 </template>
