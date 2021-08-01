@@ -3,7 +3,6 @@
 		<image class="logo" src="/static/logo.png"></image>
 		<view class="text-area" @click="onClick">
 			<text class="title">{{title}}</text>
-			<text>测试提交用</text>
 		</view>
 	</view>
 </template>
@@ -12,7 +11,7 @@
 	export default {
 		data() {
 			return {
-				title: 'Shadyree' 
+				title: '保洁公司小程序（测试）'  
 			}
 		},
 		onLoad() {
