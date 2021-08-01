@@ -20,7 +20,7 @@
 		methods: {
 			onClick(){
 				uni.showModal({
-					title:"点击"
+					title:"点击" 
 				})
 			}
 		}
