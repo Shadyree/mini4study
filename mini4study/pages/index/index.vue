@@ -11,7 +11,7 @@
 	export default {
 		data() {
 			return {
-				title: '保洁公司小程序（测试）'  
+				title: '测试程序'  
 			}
 		},
 		onLoad() {
@@ -19,8 +19,14 @@
 		},
 		methods: {
 			onClick(){
-				uni.showModal({
-					title:"点击" 
+				this.$http({
+					url: '/test/test',
+					method: 'POST',
+					data: {
+						test: 'title',
+					} 
+				}).then(res => {
+					console.log(res);
 				})
 			}
 		}
