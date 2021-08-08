@@ -27,7 +27,7 @@
 	}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 	.top {
 		margin: 40rpx 30rpx;
 		background-color: #aaffff;
